@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.threepointshader",                              
+  "displayName": "Three Points Shader",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Some color for triangle in the three points library",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_10_17_ThreePointsShader.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
