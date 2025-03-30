@@ -23,15 +23,15 @@ public class TriangleVertexColoring {
         for (int i = 0; i < triangleCount; i++)
         {
             triangle.SetThreePoints(mesh.vertices[i * 3], mesh.vertices[i * 3 + 1], mesh.vertices[i * 3 + 2]);
-            if (ThreePointUtility.IsGround(triangle, Vector3.zero, errorAllowedGroundDistance))
+            if (ThreePointsUtility.IsGround(triangle, Vector3.zero, errorAllowedGroundDistance))
             {
                 color = m_groundColor * colorPercent;
             }
-            else if (ThreePointUtility.IsVertical(triangle, errorAllowedAngle))
+            else if (ThreePointsUtility.IsVertical(triangle, errorAllowedAngle))
             {
                 color = m_verticalColor * colorPercent;
             }
-            else if (ThreePointUtility.IsHorizontal(triangle, errorAllowedAngle))
+            else if (ThreePointsUtility.IsHorizontal(triangle, errorAllowedAngle))
             {
                 color = m_horizontalColor * colorPercent;
             }
